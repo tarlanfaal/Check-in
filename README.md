@@ -1,5 +1,5 @@
-Tarlan 
-Noor
-Eddie
-Jennipher
+Tarlan,
+Noor,
+Eddie,
+Jennipher,
 Victoria
