@@ -7,7 +7,7 @@ public class SalaryEmp extends Employee {
         return getPayRate() / 24;
     }
     public void display() {
-        System.out.println(getFirstName() + " " + getLastName() + " " + getTitle() + " " + calculateSalary());
+        System.out.println( "\n" + "Employee: " + getFirstName() + " " + getLastName() + ", " + "Title: " + getTitle() + "\n" + "Bi-monthly Salary: " + "$" + calculateSalary());
     }
 
 

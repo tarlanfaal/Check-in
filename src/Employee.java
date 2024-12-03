@@ -31,14 +31,14 @@ public class Employee {
             double annualSalary = scanner.nextDouble();
             SalaryEmp salary = new SalaryEmp(firstName, lastName, title, annualSalary);
 
-            return salary;
+            salary.display();
         } else if (employeeType.equals("hourly")) {
             System.out.println("\n" + "Enter hourly rate: ");
             double hourlyRate = scanner.nextDouble();
             System.out.println("\n" + "Enter hours worked: ");
             double hoursWorked = scanner.nextDouble();
-            HourlyEmployee employee = new HourlyEmployee(firstName, lastName, title, payRate, hourlyRate, hoursWorked);
-            return employee;
+            HourlyEmployee employee = new HourlyEmployee(firstName, lastName, title, payRate, hoursWorked, hourlyRate);
+            employee.display();
         }
         return null;
     }

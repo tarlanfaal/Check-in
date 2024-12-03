@@ -10,7 +10,7 @@ public class HourlyEmployee extends Employee {
     }
 
     public void display() {
-        System.out.println(getFirstName() + " " + getLastName() + " " + getTitle() + " " + getHoursWorked() + " " + calculateWeeklySalary());
+        System.out.println( "\n" + "Employee: " + getFirstName() + " " + getLastName() + ", " + "Title: " + getTitle() + "\n" + "Hours Worked: " + getHoursWorked() + "\n" + "Weekly Pay: " + "$" + calculateSalary());
     }
 
     @Override
